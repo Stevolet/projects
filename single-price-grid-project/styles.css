@@ -1,0 +1,327 @@
+*{
+	box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+	font-family: 'Karla', sans-serif;
+	margin: 10% 15% 15% 15%;
+	font-size: 16px;
+	background-color: hsl(204, 43%, 93%);
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	
+}
+
+.whole{
+	background-color: white;
+	width: 100%;
+	position: relative;
+}
+
+#j{
+	color: hsl(179, 62%, 43%);
+	font-weight: 700;
+	font-size: 25px;
+	margin: 0% 0% 3% 5%;
+	padding-top: 5%;
+}
+
+#refund{
+	color: hsl(71, 73%, 54%);
+	font-weight: 700;
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+
+.whole p{
+	color: #B6B6B4;
+	font-weight: 500;
+	margin: 0% 10% 0% 5%;
+	padding-bottom: 5%;
+	line-height: 1.5;
+}
+
+.half-1{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 50%;
+	background-color: hsl(179, 62%, 43%);
+	top: -15px;
+	height: 200px;
+}
+
+.half-2{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 50%;
+	background-color: #79BAEC;
+	top: -15px;
+	height: 200px;
+	color: white;
+}
+
+.half-1 div{
+	color: white;
+	font-weight: 400;
+}
+
+
+.half-2 p{
+	margin: 0 10% 0% 10%;
+	color: #E5E4E2;
+	width: 70%;
+}
+
+.half-2 span{
+	display: inline-block;
+	margin: 10% 10% 5%;
+	font-weight: 700;
+}
+
+.monthly-sub{
+	margin: 10% 10% 5%;
+}
+
+div.dollar{
+	margin: 0 10%;
+}
+.dol-dur{
+	color: #D1D0CE;
+}
+
+.dol-val{
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+div.full-access{
+	margin: 10px 10%;
+}
+
+div.sign-up{
+	display: inline-block;
+	margin: 10px 10%;
+	background-color: hsl(71, 73%, 54%);
+	padding: 10px;
+	text-align: center;
+	font-weight: 700;
+}
+/***********Media Queries*************/
+@media(min-width: 945px){
+	div.sign-up{
+		width: 75%;
+		border-radius: 5px;
+		-webkit- border-radius: 5px;
+		-moz- border-radius: 5px;
+		-o- border-radius: 5px;
+		-ms- border-radius: 5px;
+	}
+
+	.half-1{
+		height: 220px;
+	}
+
+	.half-2{
+		height: 220px;
+	}
+}
+
+
+@media(min-width: 643px){
+	div.sign-up{
+		width: 75%;
+		border-radius: 5px;
+		-webkit- border-radius: 5px;
+		-moz- border-radius: 5px;
+		-o- border-radius: 5px;
+		-ms- border-radius: 5px;
+	}
+
+	.half-1{
+		height: 220px;
+	}
+
+	.half-2{
+		height: 220px;
+	}
+}
+
+
+@media(min-width: 517px) and (max-width: 643px){
+    div.sign-up{
+		width: 71%;
+		border-radius: 5px;
+		-webkit- border-radius: 5px;
+		-moz- border-radius: 5px;
+		-o- border-radius: 5px;
+		-ms- border-radius: 5px;
+        
+	}
+
+    .half-1{
+        height: 260px;
+	}
+
+	.half-2{
+        height: 260px;
+	}
+    
+    div.monthly-sub{
+        margin: 10% 10% 10%;
+    }
+    
+    div.dollar{
+        margin: 0 10% 10%;
+    }
+    
+    div.full-access{
+        margin: 0 10% 10%
+    } 
+}
+
+@media(min-width: 375px) and (max-width: 517px){
+    div.sign-up{
+		width: 65%;
+		border-radius: 5px;
+		-webkit- border-radius: 5px;
+		-moz- border-radius: 5px;
+		-o- border-radius: 5px;
+		-ms- border-radius: 5px;
+        margin: 10% 10% 10%;
+	}
+
+    .half-1{
+        height: 355px;
+	}
+
+	.half-2{
+        height: 355px;
+	}
+    
+    div.monthly-sub{
+        margin: 10% 10% 10%;
+        line-height: 1.5;        
+    }
+    
+    div.dollar{
+        margin:;
+        margin: 10% 10% 10%;
+    }
+    
+    span.dol-val{
+        font-size: 1.3em;
+    } 
+    
+    span.dol-dur{
+        font-size: .7em
+    }
+    
+    div.full-access{
+       margin: 10% 10% 10%;
+        line-height: 1.5; 
+    } 
+
+    #j{
+        font-size: 22px
+    }
+    
+    #refund{
+        font-size: .9em
+    }
+    
+    .whole p{
+        font-size: .9em;
+        margin: 0% 10% 2% 5%
+    }
+}
+@media(max-width: 375px){
+    #j{ 
+        font-size: 13px; 
+        padding-top: 10%;
+        margin: 0% 0% 7% 10%;
+    }
+    
+    #refund{
+        margin: 0 10% 7%;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+    
+    .whole p{
+        font-size: 8px;
+        margin: 0 10% 8%;
+        line-height: 1.5em;
+        padding-bottom: 20px
+    }
+    
+    .half-1{
+        width: 100%;
+        height: 159px;
+        top: -20px;
+    }
+    
+    .half-2{
+        width: 100%;
+        height: 165px;
+         border-radius: 0 0  5px 5px;
+		-webkit- border-radius: 0 0  5px 5px;
+		-moz- border-radius: 0 0  5px 5px;
+		-o- border-radius: 0 0  5px 5px;
+		-ms- border-radius: 0 0  5px 5px;
+        top: -20px;
+    }
+    
+    div.monthly-sub{
+        font-size: 12px;
+        font-weight: 700
+    }
+    
+    .dol-dur{
+        font-size: .7em;        
+    }
+    
+    .full-access{
+        font-size: 10px
+    }
+    
+    .sign-up{
+        font-size: 12px;
+        font-weight: 700;
+        margin: 10%;
+        width: 80%;
+        border-radius: 5px;
+		-webkit- border-radius: 5px;
+		-moz- border-radius: 5px;
+		-o- border-radius: 5px;
+		-ms- border-radius: 5px;
+    }
+    
+    .half-2 span{
+        margin: 10% 10% 5%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    
+    .half-2 p{
+        font-size: 9px;
+        line-height: 1.8;
+        width: 60%;
+    }
+    
+    .whole{
+       border-radius: 5px 5px 0 0;
+		-webkit- border-radius: 5px 5px 0 0;
+		-moz- border-radius: 5px 5px 0 0;
+		-o- border-radius: 5px 5px 0 0;
+		-ms- border-radius: 5px 5px 0 0; 
+    }
+}
