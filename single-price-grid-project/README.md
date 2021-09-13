@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Stevolet/projects/tree/main/single-price-grid-project
+- Live Site URL: https://stevolet.github.io/projects/single-price-grid-project/index.html
 
 ## My process
 
